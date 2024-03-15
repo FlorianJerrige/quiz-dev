@@ -15,27 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
           options: ["Django", "Rails", "Angular", "Laravel"],
           answer: "Angular"
         },
-        {
-          question: "Quelle commande permet de créer une nouvelle branche dans Git ?",
-          options: ["git branch", "git checkout", "git merge", "git branch new"],
-          answer: "git branch"
-        },
-        {
-          question: "Quel est le principe de la programmation orientée objet (POO) qui désigne l'incapacité d'accéder aux composants internes d'un objet depuis l'extérieur ?",
-          options: ["Héritage", "Polymorphisme", "Encapsulation", "Abstraction"],
-          answer: "Encapsulation"
-        },
+      
         {
           question: "Quel langage n'est pas orienté objet par conception ?",
           options: ["Java", "C", "Python", "Ruby"],
           answer: "C"
         },
-        {
-          question: "Quelle méthode HTTP est utilisée pour demander une ressource sur le Web sans provoquer d'effets secondaires ?",
-          options: ["POST", "GET", "DELETE", "PATCH"],
-          answer: "GET"
-        },
-        // 10 nouvelles questions
+
+     
         {
           question: "Dans quel langage de programmation le framework React est-il écrit ?",
           options: ["JavaScript", "TypeScript", "Java", "Python"],
@@ -51,11 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
           options: ["Chiffrement symétrique", "Consensus distribué", "Compression de données", "Tri par fusion"],
           answer: "Consensus distribué"
         },
-        {
-          question: "Quelle propriété CSS est utilisée pour changer la couleur de fond d'un élément ?",
-          options: ["color", "background-color", "bgcolor", "background-image"],
-          answer: "background-color"
-        },
+     
         {
           question: "Quel protocole est utilisé pour sécuriser la transmission de données sur le Web ?",
           options: ["HTTP", "HTTPS", "FTP", "SMTP"],
@@ -138,17 +121,8 @@ document.addEventListener('DOMContentLoaded', function() {
         options: ["React", "CSS", "Django", "HTML"],
         answer: "Django"
       },
-      // Ajoutez ici les 10 questions supplémentaires
-      {
-        question: "Lequel de ces éléments est un principe fondamental de la programmation fonctionnelle ?",
-        options: ["Mutation de l'état", "Pureté des fonctions", "Héritage", "Polymorphisme"],
-        answer: "Pureté des fonctions"
-      },
-      {
-        question: "Quel outil est utilisé pour gérer les dépendances dans un projet JavaScript ?",
-        options: ["Webpack", "Babel", "npm", "Jenkins"],
-        answer: "npm"
-      },
+   
+     
       {
         question: "Quel est le but principal des tests unitaires dans le développement logiciel ?",
         options: ["Vérifier la performance de l'application", "Tester l'application dans son ensemble", "Vérifier que les petites parties de l'application fonctionnent comme prévu", "Déployer l'application"],
@@ -241,5 +215,6 @@ nextButton.addEventListener('click', function() {
         displayQuestion(questions[currentQuestionIndex]);
     }
 });
+
 
 });
