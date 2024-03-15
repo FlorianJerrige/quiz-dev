@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="start-page">
-        <button id="start-quiz-btn">Lancer le quizz !</button>
+    <div id="quiz-title">
     </div>
-    <div id="quiz-container" style="display:none;">
-        <div id="question"></div>
-        <ul id="options">
-            <!-- Les options seront injectées ici par JavaScript -->
-        </ul>
-        <button id="next">Suivante</button>
+    <div class="quiz-body">
+        <div id="start-page">
+            <h1 id="quiz-title">Le Quizz de Tech a Way</h1>
+            <button id="start-quiz-btn">Lancer le quizz !</button>        </div>
+        <div id="quiz-container" style="display:none;">
+            <div id="question"></div>
+            <ul id="options">
+                <!-- Les options seront injectées ici par JavaScript -->
+            </ul>
+            <button id="next">Suivante</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
